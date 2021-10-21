@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 'use strict';
 exports.__esModule = true;
 exports.LinkPreview = void 0;
@@ -14,7 +15,7 @@ function isValidResponse(res) {
 		res.hostname !== undefined
 	);
 }
-export default LinkPreview = function (_a) {
+export default function LinkPreview({ _a }) {
 	var url = _a.url,
 		_b = _a.className,
 		className = _b === void 0 ? '' : _b,
@@ -174,4 +175,4 @@ export default LinkPreview = function (_a) {
 			)
 		)
 	);
-};
+}

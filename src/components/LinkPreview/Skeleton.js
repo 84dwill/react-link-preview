@@ -4,7 +4,7 @@ exports.__esModule = true;
 import react_1 from 'react';
 import react_loading_skeleton_1 from 'react-loading-skeleton';
 require('./skeleton.scss');
-var Skeleton = function (_a) {
+export default function Skeleton({ _a }) {
 	var _b = _a.width,
 		width = _b === void 0 ? '100%' : _b,
 		_c = _a.imageHeight,
@@ -20,5 +20,4 @@ var Skeleton = function (_a) {
 			react_1['default'].createElement(react_loading_skeleton_1['default'], { count: 3 })
 		)
 	);
-};
-export default Skeleton;
+}
