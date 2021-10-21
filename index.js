@@ -1,4 +1,4 @@
-//import LinkPreview from './src/components/LinkPreview/LinkPreviewJS';
-import Test from './src/components/Test';
+import LinkPreview from './src/components/LinkPreview/LinkPreview';
+//import Test from './src/components/Test';
 
-export { Test };
+export default { LinkPreview };
