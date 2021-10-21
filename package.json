@@ -4,7 +4,7 @@
 	"version": "0.0.0",
 	"private": false,
 	"description": "React library to preview links.",
-	"author": "Dhaiwat Pandya",
+	"author": "Daniel Willman",
 	"keywords": [
 		"react",
 		"react-link-preview",
@@ -12,14 +12,6 @@
 		"preview",
 		"card"
 	],
-	"homepage": "https://github.com/dhaiwat10/react-link-preview",
-	"bugs": {
-		"url": "https://github.com/dhaiwat10/react-link-preview/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/dhaiwat10/react-link-preview.git"
-	},
 	"scripts": {
 		"build": "yarn clean & rollup -c",
 		"clean": "rimraf dist",
@@ -106,11 +98,6 @@
 	"engines": {
 		"node": ">=12.0.0",
 		"yarn": "^1.5"
-	},
-	"husky": {
-		"hooks": {
-			"commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-		}
 	},
 	"release": {
 		"branches": [
