@@ -14,7 +14,7 @@ function isValidResponse(res) {
 		res.hostname !== undefined
 	);
 }
-exports.LinkPreview = function (_a) {
+export default LinkPreview = function (_a) {
 	var url = _a.url,
 		_b = _a.className,
 		className = _b === void 0 ? '' : _b,

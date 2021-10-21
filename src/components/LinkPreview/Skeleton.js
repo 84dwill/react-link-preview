@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 'use strict';
 exports.__esModule = true;
 import react_1 from 'react';
@@ -20,4 +21,4 @@ var Skeleton = function (_a) {
 		)
 	);
 };
-exports['default'] = Skeleton;
+export default Skeleton;
