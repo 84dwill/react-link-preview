@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 'use strict';
-exports.__esModule = true;
 import react_1 from 'react';
 import react_loading_skeleton_1 from 'react-loading-skeleton';
 require('./skeleton.scss');

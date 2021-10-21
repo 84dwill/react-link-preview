@@ -1,7 +1,5 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 'use strict';
-exports.__esModule = true;
-exports.LinkPreview = void 0;
 import react_1 from 'react';
 require('./linkPreview.scss');
 import Skeleton_1 from './Skeleton';
